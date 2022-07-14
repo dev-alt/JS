@@ -1,7 +1,7 @@
-let featuredPost = [
-  "Check out my netflix Clone",
-  "Here's the code for my project",
-  "I've relaunched my portfolio",
-];
+let message = ["Hey afadsf", "Today fsdaf", "This time im going ga"];
 
-let education = ["BOP Poly", "Toi-Ohomai"];
+let newMessage = "Same here";
+message.push(newMessage);
+for (let i = 0; i < message.length; i += 1) {
+  console.log(message[i]);
+}
