@@ -1,3 +1,10 @@
+let player = {
+  name: "Andrew",
+  chips: 300,
+  sayHello: function () {
+    console.log("Hello");
+  },
+};
 let cards = [];
 let sum = 0;
 let hasBlackJack = false;
@@ -8,13 +15,9 @@ let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 let playerEl = document.getElementById("player-el");
 
-let player = {
-  name: "Andrew",
-  chips: 145,
-};
-
+player.sayHello();
 playerEl.textContent = player.name + ": $" + player.chips;
-// let sumEl = document.querySelector("#sum-el");
+// // let sumEl = document.querySelector("#sum-el");
 
 function getRandomCard() {
   let randomCard = Math.floor(Math.random() * 13) + 1;

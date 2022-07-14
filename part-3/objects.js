@@ -7,5 +7,12 @@ let course = {
   isFree: true,
   tags: ["html", "css"],
 };
+let airBNB = {
+  name: "C 543",
+  price: 544,
+  tags: ["Castle"],
+  isAvaliable: true,
+};
 
+console.log(airBNB.isAvaliable, airBNB.name, airBNB.price);
 console.log(course["tags"]);
