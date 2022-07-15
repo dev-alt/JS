@@ -36,7 +36,9 @@ function startGame() {
   cards = [firstCard, secondCard];
   sum = firstCard + secondCard;
   isAlive = true;
+  hasBlackJack = false;
   renderGame();
+  console.log(cards);
 }
 
 function renderGame() {
@@ -55,6 +57,7 @@ function renderGame() {
     isAlive = false;
   }
   messageEl.innerText = message;
+  console.log(cards);
 }
 
 function newCard() {
@@ -68,12 +71,16 @@ function newCard() {
   } else {
     alert("has blackjack");
   }
+  console.log(cards);
 }
 
 function restart() {
   sum = 0;
   cards = [];
+  hasBlackJack = false;
+  isAlive = false;
   cardsEl.innerText = "Cards: ";
   sumEl.innerText = "Sum: ";
   messageEl.innerText = "Want to play a round?";
+  console.log(cards);
 }
