@@ -23,23 +23,36 @@
 //     cheers ${sender}`;
 // console.log(email);
 
-const credits = 0;
+// const credits = 0;
 
-if (credits) {
-  console.log("Let's play");
-} else {
-  console.log("Sorry no credits");
-}
-let trueOrFalse = Boolean("");
-let trueOrFalse1 = Boolean("0");
-let trueOrFalse2 = Boolean(100);
-let trueOrFalse3 = Boolean(null);
-let trueOrFalse4 = Boolean([0]);
-let trueOrFalse5 = Boolean(-0);
+// if (credits) {
+//   console.log("Let's play");
+// } else {
+//   console.log("Sorry no credits");
+// }
+// let trueOrFalse = Boolean("");
+// let trueOrFalse1 = Boolean("0");
+// let trueOrFalse2 = Boolean(100);
+// let trueOrFalse3 = Boolean(null);
+// let trueOrFalse4 = Boolean([0]);
+// let trueOrFalse5 = Boolean(-0);
 
-console.log(trueOrFalse);
-console.log(trueOrFalse1);
-console.log(trueOrFalse2);
-console.log(trueOrFalse3);
-console.log(trueOrFalse4);
-console.log(trueOrFalse5);
+// console.log(trueOrFalse);
+// console.log(trueOrFalse1);
+// console.log(trueOrFalse2);
+// console.log(trueOrFalse3);
+// console.log(trueOrFalse4);
+// console.log(trueOrFalse5);
+
+// //            (parameters)
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+// //            (arguments)
+// console.log(add(3, 4));
+// console.log(add(9, 102));
+
+// function getFirst(arr) {
+//   return arr[0];
+// }
+// console.log(getFirst([10, 3, 10]));
