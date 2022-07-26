@@ -52,14 +52,21 @@ function renderGame() {
   } else if (sum === 21) {
     message = "Congratulations you have won";
     hasBlackJack = true;
+    player.chips += 100;
+    renderChips();
   } else {
     message = "You have lost";
     isAlive = false;
+    player.chips -= 50;
+    renderChips();
   }
   messageEl.innerText = message;
   console.log(cards);
 }
 
+function renderChips() {
+  playerEl.textContent = player.name + ": $" + player.chips;
+}
 function newCard() {
   if (isAlive === true && hasBlackJack === false) {
     let card = getRandomCard();
